@@ -1,0 +1,14 @@
+.sections ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sections a:hover {
+  background-color: $gray;
+  text-decoration: none;
+}
+
+.sections li:last-child a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
